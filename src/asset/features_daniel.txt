@@ -1,0 +1,15 @@
+Här är input på features som kan vara bra sen att få in.
+
+1. Total börda per pass(tot antal kg)
+
+2. Medel-börda.
+
+3.Medel-intensitet(då får man vikta mot max i ryck resp stöt för resp övning)
+
+4. Kontroll kvot. ;MRI/K-värde.  Som är Medel börda/Aktuell tävlingstotal. Räknas sedan ut som medel över 12 veckor.
+
+5. MSVI. Medel-set-vikt-intensitet.
+
+Medelvikt/set= Tot börda/tot set 
+
+Tot börda/tot set / Aktuell tävlingstotal

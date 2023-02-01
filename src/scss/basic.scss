@@ -1,0 +1,29 @@
+html {
+  background-size: 20%;
+  background-image: url('/src/asset/htklogo.svg')
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  margin: 0;
+  background-color: rgba($color: white, $alpha: 0.95);
+  min-height: 100vh;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: auto;
+  gap: 15px;
+}
+
+p {
+  font-size: 16px;
+  margin: 0;
+}
+

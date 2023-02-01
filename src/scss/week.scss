@@ -1,0 +1,39 @@
+#weekInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba($primary-yellow, 0.4);
+    border-radius: 25px;
+    min-width: 320px;
+    min-height: 175px;
+    padding: 10px;
+    gap: 5px;
+
+    h2 {
+        font-size: 24px;
+        margin: 0;
+    }
+
+    button {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+
+        background: rgba(white, 0.8);
+        border: 1px solid grey;
+        border-radius: 20px;
+
+        text-align: center;
+        transition: transform 0.3s;
+    }
+
+    button:hover {
+        background-color: rgba(white, 1.0);
+        border: 1px solid black;
+        transform: scale(1.05);
+    }
+
+    .doneWeek {
+        background: rgba($primary-green, 0.5);
+    }
+}
