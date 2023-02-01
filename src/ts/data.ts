@@ -6,7 +6,7 @@ export const tisdag =
             "reps": [1, 1, 1, 1, 1, 1, 1, 1],
             "setsDone": [false, false, false, false, false, false],
             "description": "Kontrollerat ner, snabbt upp",
-            "done": true,
+            "done": false,
             "TypeOfPr": "snatch"
         },
         {
@@ -15,7 +15,7 @@ export const tisdag =
             "reps": [1, 1, 1, 1, 1, 1, 1, 1],
             "setsDone": [false, false, false, false, false, false],
             "description": "Stanna i läget där du fångar cleanen",
-            "done": true,
+            "done": false,
             "TypeOfPr": "clean"
         },
         {

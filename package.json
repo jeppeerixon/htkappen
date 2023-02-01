@@ -11,7 +11,7 @@
 
   "scripts": {
     "start": "parcel src/*.html",
-    "predeploy": "parcel build src/*.html --public-url https://github.com/jeppeerixon/htkappen.git",
+    "bajs": "npx parcel build src/*.html --public-url https://github.com/jeppeerixon/htkappen.git",
     "deploy": "gh-pages -d dist"
 }
 }
