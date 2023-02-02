@@ -35,7 +35,6 @@ export function addUserID(nameText: string, snatchMax: number, cleanMax: number,
   if (nameText.length > 2 || Number.isNaN(snatchMax) == false || Number.isNaN(cleanMax) == false) {
     let newUser = new userID(nameText, snatchMax, cleanMax, doneDays);
     newUserInfo.unshift(newUser); 
-    console.log(newUser);
     return { success: true, error: "" };
   } else {
     return { success: false, error: "Fyll i rätt info!" };
@@ -49,7 +48,8 @@ export function createNewUser(nameText: string, snatchMax: number, cleanMax: num
     console.log(result);
     console.log(newUserInfo[0].name);
     showWeeklyProg();
-    displayUserInfo(nameText, snatchMax, cleanMax )
+    displayUserInfo(nameText, snatchMax, cleanMax);
+    
   } else {
     displayError(result.error, true);
   }
@@ -68,11 +68,3 @@ export function displayError(error: string, show: boolean) {
     errorContainer.classList.remove("show");
   }
 }
-
-// export function changeTodo(todo: Todo) {
-//   todo.done = !todo.done;
-// }
-
-// export function removeAllTodos(todos: Todo[]) {
-//   todos.splice(0, todos.length);
-// }
