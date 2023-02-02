@@ -73,8 +73,12 @@ function createProgram(workouts: any) {
     kg
     `;
     li.addEventListener("click", (e) => {
-      (e.currentTarget as HTMLLIElement).classList.add("repsAndSets__text--done");
-      checkIfOvningDone(workouts[currentLiftCount]);
+      if ((e.currentTarget as HTMLLIElement).classList.contains("repsAndSets__text--done")) {
+        (e.currentTarget as HTMLLIElement).classList.remove("repsAndSets__text--done");
+      } else {
+        (e.currentTarget as HTMLLIElement).classList.add("repsAndSets__text--done");
+        checkIfOvningDone(workouts[currentLiftCount]);
+      }
       
     });
     
