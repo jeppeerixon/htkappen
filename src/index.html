@@ -17,7 +17,7 @@
 
       <header>
         <div>
-          <h1>Hej <span id="showUserName"></span></h1>
+          <h1><span id="showUserName">HTK APPEN</span></h1>
           <p>PB: <span id="showSnatchPB">0</span> / <span id="showCleanPB">0</span> > <a id="showSettings">Byt inställningar här!</a></p>
         </div>
         <div class="logo"><span>HTK</span></div>
@@ -25,16 +25,17 @@
       </header>
       <div id="setUser" class="inputDiv" style="display: none;">
         <form id="oneRepMax">
-          <p>Välkommen! Fyll i rätt information!</p>
+          <h2>Välkommen!</h2>
+          <p>Fyll i ditt PB i ryck & stöt för att skapa personligt träningsprogram.</p>
           <label>Namn:
-            <input value="Jesper" placeholder="Enter your name" type="text" id="userName" />
+            <input placeholder="Förnamn" type="text" id="userName" />
           </label>
           <div>
             <label>Ryck PR:
-              <input value="85" placeholder="Enter your snatch pr" type="text" id="snatchRepMaxValue" />
+              <input placeholder="KG" type="text" id="snatchRepMaxValue" />
             </label>
             <label>Stöt PR:
-              <input value="110" placeholder="Enter your clean & jerk pr" type="text" id="cleanRepMaxValue" />
+              <input placeholder="KG" type="text" id="cleanRepMaxValue" />
             </label>
           </div>
           <button>Spara</button>
@@ -57,11 +58,9 @@
       <p id="selectedOvning"></p>
       <p id="selectedOvningInfo"></p>
       <div class="liftCounterContainer">
-        <button type="button" class="prevNext"></button>
         <ul id="repsAndSets" class="repsAndSets">
           <li></li>
         </ul>
-        <button type="button" class="prevNext"></button>
       </div>
       
     </main>

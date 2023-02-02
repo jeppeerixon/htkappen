@@ -146,7 +146,7 @@ export function showWeeklyProg() {
 
   for (let i = 0; i < weeklyProgList.length; i++) {
     let btn: HTMLButtonElement = document.createElement("button");
-    // jo den funkar!
+    
     btn.innerHTML = `${dayNameShort[i]}`;
     if (userIDlist[0].daysDone[i] == true) {
       btn.classList.add("doneWeek");
@@ -155,10 +155,10 @@ export function showWeeklyProg() {
       currentLiftCount = 0;
       showCorrectDay(i);
       showCorrectOvning(weeklyProgList[i]);
-      //createProgram(weeklyProgList[i][0]);
-      //checkIfDayIsDone(weeklyProgList[i][0].done);
-        
-        //lägg i "active" button grej kanske
+      let progStart: HTMLHeadingElement = document.getElementById("currentProg") as HTMLHeadingElement;
+
+      progStart.scrollIntoView()
+      
     })
     progContainer.appendChild(btn);
   }
@@ -182,7 +182,7 @@ export function displayUserInfo(text: string, snatchNr: number, cleanNr: number 
   let nameContainer: HTMLHeadingElement = document.getElementById(
     "showUserName"
   ) as HTMLHeadingElement;
-  nameContainer.innerHTML = `${text}`
+  nameContainer.innerHTML = `Hej ${text} `
 
   let snatchPBContainer: HTMLHeadingElement = document.getElementById(
     "showSnatchPB"
@@ -198,7 +198,7 @@ export function displayUserInfo(text: string, snatchNr: number, cleanNr: number 
 
 function checkIfDayIsDone(workouts: any) {
 
-  // funkar typ
+  // används ej ??? 
   let btn: HTMLButtonElement = document.querySelector('[data-id="0"]') as HTMLButtonElement;
 
   let list: [string, string] = ["Kör passet igen", "Nästa pass"];
@@ -262,7 +262,10 @@ function checkIfDayIsDone(workouts: any) {
 
 }
 
+
+// funkar MEN borde bytas och jämföras med "setsDone" i datan!
 function checkIfOvningDone(workoutOvning: any) {
+
   let liList: NodeListOf<HTMLLIElement> = document.querySelectorAll(".repsAndSets__text") as NodeListOf<HTMLLIElement>;
   let liArray = Array.from(liList);
   let doneList: NodeListOf<HTMLLIElement> = document.querySelectorAll(".repsAndSets__text--done") as NodeListOf<HTMLLIElement>;
