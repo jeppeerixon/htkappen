@@ -11,7 +11,7 @@ export const tisdag =
         },
         {
             "name": "Stöt",
-            "percent": [65,	70,	75,	80,	85,	87],
+            "percent": [65,	70,	75,	80,	85,	87, 90, 93],
             "reps": [1, 1, 1, 1, 1, 1, 1, 1],
             "setsDone": [false, false, false, false, false, false],
             "description": "Stanna i läget där du fångar cleanen",
@@ -37,7 +37,7 @@ export const torsdag =
             "reps": [1, 1, 1, 1, 1, 1, 1, 1],
             "description": "Kontrollerat ner, snabbt upp",
             "done": false,
-            "TypeOfPr": "clean"
+            "TypeOfPr": "snatch"
         },
         {
             "name": "Svänd+Östöt",
@@ -45,7 +45,7 @@ export const torsdag =
             "reps": [1, 1, 1, 1, 1, 1, 1, 1],
             "description": "Styrkevändning + överstöt",
             "done": false,
-            "TypeOfPr": "snatch"
+            "TypeOfPr": "clean"
         },
         {
             "name": "Frontsquat",
@@ -64,7 +64,7 @@ export const passtre = [
         "reps": [1, 1, 1, 1, 1, 1, 1, 1],
         "description": "Kontrollerat ner, snabbt upp",
         "done": false,
-        "TypeOfPr": "clean"
+        "TypeOfPr": "snatch"
     },
     {
         "name": "Stöt",
@@ -72,11 +72,11 @@ export const passtre = [
         "reps": [1, 1, 1, 1, 1, 1, 1, 1],
         "description": "Stanna i läget där du fångar cleanen",
         "done": false,
-        "TypeOfPr": "snatch"
+        "TypeOfPr": "clean"
     },
     {
         "name": "Tagga för tävling",
-        "percent": [97,	99,	99,	100, 110, 1000, 10000, 12345],
+        "percent": [110, 120, 135, 150, 200, 1000, 10000, 12345],
         "reps": [1, 1, 1, 1, 1, 1, 1, 1],
         "description": "Stanna i läget där du fångar cleanen",
         "done": false,
