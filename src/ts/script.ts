@@ -70,7 +70,8 @@ function createProgram(workouts: any) {
     ${workouts[currentLiftCount].reps[i]} 
     reps @
     ${Math.round(whatPR * (workouts[currentLiftCount].percent[i]/100))}
-    kg
+    kg 
+    (${workouts[currentLiftCount].percent[i]}%)
     `;
     li.addEventListener("click", (e) => {
       if ((e.currentTarget as HTMLLIElement).classList.contains("repsAndSets__text--done")) {
@@ -81,7 +82,7 @@ function createProgram(workouts: any) {
       }
       
     });
-    
+    ovningContainerInfo.innerHTML = workouts[currentLiftCount].description;
     setContainer.appendChild(li);
   }
 }
@@ -213,7 +214,7 @@ function checkIfDayIsDone(workouts: any) {
     "repsAndSets"
   ) as HTMLUListElement;
 
-  if (workouts[0].done == true && workouts[1].done == true  && workouts[2].done == true ) {
+  if (workouts[0].done == true && workouts[1].done == true  && workouts[2].done == true && workouts[3].done == true && workouts[4].done == true ) {
     if (setContainer) {
       setContainer.innerHTML = "";
     }
@@ -242,7 +243,7 @@ function checkIfDayIsDone(workouts: any) {
       li.addEventListener("click", (e) => {
         let option = (e.currentTarget as HTMLLIElement).innerHTML;
         if (option == list[0]) {
-          workouts[0].done = false; workouts[1].done = false; workouts[2].done = false;
+          workouts[0].done = false; workouts[1].done = false; workouts[2].done = false; workouts[3].done = false; workouts[4].done = false;
           currentLiftCount = 0;
           showCorrectDay(currentDayCount)
           showCorrectOvning(weeklyProgList[currentDayCount])
