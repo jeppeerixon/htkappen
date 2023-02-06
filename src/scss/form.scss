@@ -38,23 +38,39 @@
             min-width: 300px;
         }
 
-        button {
-            min-height: 40px;
-            background: rgba(white, 0.8);
-            border: 1px solid grey;
-            border-radius: 15px;
-            width: 85%;
-            text-align: center;
-            padding: 5px 0;
-            margin-bottom: 5px;
+        .btnMode {
+            display: flex;
+            min-width: 300px;
+            justify-content: center;
+            align-items: center;
 
-            &:hover {
-                background-color: rgba(white, 1.0);
-                border: 1px solid black;
-                transform: scale(1.05);
-
+            span {
+                padding-left: 10px;
+                padding-bottom: 5px;
+                cursor: pointer;
             }
+
+            button {
+                min-height: 40px;
+                background: rgba(white, 0.8);
+                border: 1px solid grey;
+                border-radius: 15px;
+                width: 75%;
+                text-align: center;
+                padding: 5px 0;
+                margin-bottom: 5px;
+    
+                &:hover {
+                    background-color: rgba(white, 1.0);
+                    border: 1px solid black;
+                    transform: scale(1.05);
+    
+                }
+            }
+
         }
+
+        
     }
     
     input {

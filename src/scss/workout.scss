@@ -79,11 +79,36 @@ main {
         background-color: rgba(0, 0, 0, 0.3);
         transform: scale(1.05);
         cursor: pointer; 
+
+        &:nth-child(6) {
+          background-color: rgba(0, 0, 0, 0.3);
+  
+        }
+        &:nth-child(7) {
+          background-color: rgba(0, 0, 0, 0.3);
+  
+        }
+        &:nth-child(8) {
+          background-color: rgba(0, 0, 0, 0.3);
+  
+        }
       }
   
       &--done {
-        text-decoration: line-through;
         background-color: rgba(green, 0.3);
+
+        &:nth-child(6) {
+          background-color: rgba(green, 0.3);
+  
+        }
+        &:nth-child(7) {
+          background-color: rgba(green, 0.3);
+  
+        }
+        &:nth-child(8) {
+          background-color: rgba(green, 0.3); 
+  
+        }
       }
     }
   }

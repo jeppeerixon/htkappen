@@ -106,7 +106,7 @@ function showCorrectOvning(workouts: any) {
       spam.innerHTML = `${workouts[i].name} >`;
 
       spam.addEventListener("click", () => {
-      //currentLiftCount = i;
+      currentLiftCount = i;
       createProgram(workouts);
       showCorrectOvning(weeklyProgList[currentDayCount]);
       //checkIfDayIsDone(workouts)
@@ -205,7 +205,7 @@ function checkIfDayIsDone(workouts: any) {
   // används ej ??? 
   let btn: HTMLButtonElement = document.querySelector('[data-id="0"]') as HTMLButtonElement;
 
-  let list: [string, string] = ["Kör passet igen", "Nästa pass"];
+  let list: [string, string, string] = ["Kör passet igen", "High Five!", "Nästa pass"];
 
   let spanCount: HTMLSpanElement = document.getElementById("passCount") as HTMLSpanElement;
 
