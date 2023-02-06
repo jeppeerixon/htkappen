@@ -70,7 +70,7 @@ export const torsdag =
         {
             "name": "Ryck complex",
             "percent": [60, 60, 65, 70, 70],
-            "reps": [1, 1, 1, 1, 1],
+            "reps": [3, 3, 3, 3, 3],
             "setsDone": [false, false, false, false, false, false],
             "description": "Ryck från golvet + ryck från under knät + ryck från ovan knät: 5x3x60-70%",
             "done": false,
