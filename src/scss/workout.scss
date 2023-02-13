@@ -66,53 +66,53 @@ main {
       letter-spacing: 2px;
       word-spacing: 5px;
 
-      // &:nth-child(6) {
-      //   background-color: rgba(yellow, 0.3);
+      &:nth-child(6) {
+        background-color: rgba(yellow, 0.3);
 
-      // }
-      // &:nth-child(7) {
-      //   background-color: rgba(orange, 0.3);
+      }
+      &:nth-child(7) {
+        background-color: rgba(orange, 0.3);
 
-      // }
-      // &:nth-child(8) {
-      //   background-color: rgba(red, 0.3);
+      }
+      &:nth-child(8) {
+        background-color: rgba(red, 0.3);
 
-      // }
+      }
   
       &:hover {
         background-color: rgba(0, 0, 0, 0.3);
         transform: scale(1.05);
         cursor: pointer; 
 
-        // &:nth-child(6) {
-        //   background-color: rgba(0, 0, 0, 0.3);
+        &:nth-child(6) {
+          background-color: rgba(0, 0, 0, 0.3);
   
-        // }
-        // &:nth-child(7) {
-        //   background-color: rgba(0, 0, 0, 0.3);
+        }
+        &:nth-child(7) {
+          background-color: rgba(0, 0, 0, 0.3);
   
-        // }
-        // &:nth-child(8) {
-        //   background-color: rgba(0, 0, 0, 0.3);
+        }
+        &:nth-child(8) {
+          background-color: rgba(0, 0, 0, 0.3);
   
-        // }
+        }
       }
   
       &--done {
         background-color: rgba(green, 0.3);
 
-        // &:nth-child(6) {
-        //   background-color: rgba(green, 0.3);
+      &:nth-child(6) {
+        background-color: rgba(green, 0.3);
   
-        // }
-        // &:nth-child(7) {
-        //   background-color: rgba(green, 0.3);
+      }
+      &:nth-child(7) {
+        background-color: rgba(green, 0.3);
   
-        // }
-        // &:nth-child(8) {
-        //   background-color: rgba(green, 0.3); 
+      }
+      &:nth-child(8) {
+        background-color: rgba(green, 0.3); 
   
-        // }
+      }
       }
     }
   }

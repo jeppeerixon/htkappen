@@ -8,12 +8,12 @@ import { tisdag, passfyra, passtre, torsdag } from "./data";
 
 export let userIDlist: userID[] = JSON.parse(localStorage.getItem("userData") || "[]"); ;
 
-let weeklyProgList = [tisdag, torsdag, passtre]
+let weeklyProgList = [tisdag, torsdag, passtre, passfyra];
 
 let daysDoneCount: number = 0;
 let currentDayCount: number = 0;
 let currentLiftCount: number = 0;
-let dayName: [string, string, string] = ["Tisdag", "Torsdag", "Pass Tre"];
+let dayName: [string, string, string, string] = ["Tisdag", "Torsdag", "Pass Tre", "Pass Fyra"];
 let dayNameShort: [string, string, string, string] = ["TIS", "TOR", "TRE", "FYRA"];
 
 (document.getElementById("oneRepMax") as HTMLFormElement)?.addEventListener(
@@ -214,7 +214,8 @@ function checkIfDayIsDone(workouts: any) {
     "repsAndSets"
   ) as HTMLUListElement;
 
-  if (workouts[0].done == true && workouts[1].done == true  && workouts[2].done == true && workouts[3].done == true && workouts[4].done == true ) {
+  // denna ifsats måste lösas på ett bättre sätt...
+  if (workouts[0].done == true && workouts[1].done == true  && workouts[2].done == true && workouts[3].done == true && workouts[4].done == true && workouts[5].done == true ) {
     if (setContainer) {
       setContainer.innerHTML = "";
     }
@@ -243,7 +244,8 @@ function checkIfDayIsDone(workouts: any) {
       li.addEventListener("click", (e) => {
         let option = (e.currentTarget as HTMLLIElement).innerHTML;
         if (option == list[0]) {
-          workouts[0].done = false; workouts[1].done = false; workouts[2].done = false; workouts[3].done = false; workouts[4].done = false;
+          //skriv om till en forloop när du orkar
+          workouts[0].done = false; workouts[1].done = false; workouts[2].done = false; workouts[3].done = false; workouts[4].done = false; workouts[5].done = false;
           currentLiftCount = 0;
           showCorrectDay(currentDayCount)
           showCorrectOvning(weeklyProgList[currentDayCount])

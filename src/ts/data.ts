@@ -1,144 +1,172 @@
 export const tisdag = 
     [
         {
-            "name": "Tall clean",
-            "percent": [20,	25,	30,	35,	40],
-            "reps": [3, 3, 3, 3, 3],
+            "name": "Ryck nacke",
+            "percent": [23,	28,	30,	35,	37, 40, 43],
+            "reps": [3, 3, 3, 3, 3, 3, 3],
             "setsDone": [false, false, false, false, false],
-            "description": "vändning utan bendriv: tom stång - max 40% av stöt",
+            "description": "utan bendriv 6x3 på 40%",
+            "done": false,
+            "TypeOfPr": "snatch"
+        },
+        {
+            "name": "Styrkeryck",
+            "percent": [52,	55,	57,	60,	64,	67,	70,	73],
+            "reps": [3, 3, 3, 3, 3, 3, 3, 3],
+            "setsDone": [false, false, false, false, false, false],
+            "description": "",
+            "done": false,
+            "TypeOfPr": "snatch"
+        },
+        {
+            "name": "Stöt",
+            "percent": [52,	55,	57,	60,	64,	67,	70,	73],
+            "reps": [3, 3, 3, 3, 3, 3, 3, 3],
+            "setsDone": [false, false, false, false, false, false],
+            "description": "",
             "done": false,
             "TypeOfPr": "clean"
         },
         {
-            "name": "Häng Styrkevändning",
-            "percent": [70, 70, 70, 70, 70],
-            "reps": [3, 3, 3, 3, 3],
+            "name": "Stötdrag",
+            "percent": [83, 87, 92, 97, 102, 107, 110, 113],
+            "reps": [5, 5, 5, 5, 5, 5, 5, 5],
             "setsDone": [false, false, false, false, false, false],
-            "description": "Paus i hängande! Stång vid mitten av knäskål",
-            "done": false,
-            "TypeOfPr": "clean"
-        },
-        {
-            "name": "Cluster",
-            "percent": [60, 60, 70, 70],
-            "reps": [1, 1, 1, 1],
-            "setsDone": [false, false, false, false, false, false],
-            "description": "Vänd och på en gång upp i push press: 4x60-70%",
-            "done": false,
-            "TypeOfPr": "clean"
-        },
-        {
-            "name": "Stötmark",
-            "percent": [80, 90, 100, 110, 120, 130],
-            "reps": [1, 1, 1, 1, 1, 1],
-            "setsDone": [false, false, false, false, false, false],
-            "description": "Jobba upp till max singel: då du fortfarande orkar göra slutdrag",
+            "description": "ovan knät",
             "done": false,
             "TypeOfPr": "clean"
         },
         {
             "name": "Bakböj",
-            "percent": [80, 90, 100, 110, 120, 130],
-            "reps": [1, 1, 1, 1, 1, 1],
+            "percent": [63,	67,	70,	74,	78,	82,	85,	88],
+            "reps": [3, 3, 3, 3, 3, 3, 3, 3],
             "setsDone": [false, false, false, false, false, false],
-            "description": "Jobba upp till max singel",
+            "description": "",
             "done": false,
             "TypeOfPr": "clean"
+        },
+        {
+            "name": "Press bakom nacke",
+            "percent": [51,	53,	55,	57,	60,	62,	65,	68],
+            "reps": [3, 3, 3, 3, 3, 3, 3, 3],
+            "setsDone": [false, false, false, false, false, false],
+            "description": "",
+            "done": false,
+            "TypeOfPr": "snatch"
         }
     ];
 
 export const torsdag =
     [
         {
-            "name": "Ryckmark knäpassage",
-            "percent": [20, 30, 40, 50, 60, 70],
-            "reps": [3, 3, 3, 3, 3, 3],
+            "name": "Ryck nacke",
+            "percent": [23,	28,	30,	35,	37, 40, 43],
+            "reps": [3, 3, 3, 3, 3, 3, 3],
             "setsDone": [false, false, false, false, false],
-            "description": "Jobba bara med första delen av lyftet, från ovan till under knät. Valfri vikt",
+            "description": "utan bendriv 5-7 sets x3 på 40%",
             "done": false,
             "TypeOfPr": "snatch"
         },
         {
-            "name": "Tall Snatch",
-            "percent": [20, 25, 30, 35, 40],
-            "reps": [3, 3, 3, 3, 3],
+            "name": "Ryckböj",
+            "percent": [48,	53,	58,	63,	68,	72,	75,	78],
+            "reps": [3, 3, 3, 3, 3, 3, 3, 3],
             "setsDone": [false, false, false, false, false, false],
-            "description": "Paus i hängande! Stång vid mitten av knäskål: Tom stång - max 40% ryck",
+            "description": "",
             "done": false,
             "TypeOfPr": "snatch"
         },
         {
-            "name": "Ryck complex",
-            "percent": [60, 60, 65, 70, 70],
-            "reps": [3, 3, 3, 3, 3],
+            "name": "Vändning",
+            "percent": [56,	59,	62,	65,	68,	72,	75,	78],
+            "reps": [3, 3, 3, 3, 3, 3, 3, 3],
             "setsDone": [false, false, false, false, false, false],
-            "description": "Ryck från golvet + ryck från under knät + ryck från ovan knät: 5x3x60-70%",
+            "description": "",
             "done": false,
-            "TypeOfPr": "snatch"
+            "TypeOfPr": "clean"
         },
         {
-            "name": "RDL ryckfattning",
-            "percent": [60, 60, 65, 70, 70],
-            "reps": [4, 4, 4, 4, 4],
+            "name": "Kickstöt",
+            "percent": [52,	55,	57,	60,	64,	67,	70,	73],
+            "reps": [3, 3, 3, 3, 3, 3, 3, 3],
             "setsDone": [false, false, false, false, false, false],
-            "description": "60-70% av ryck, fokus jobba med höftfällningen",
+            "description": "ovan knät",
             "done": false,
-            "TypeOfPr": "snatch"
+            "TypeOfPr": "clean"
         },
         {
-            "name": "Press nacke",
-            "percent": [30, 35, 40, 45],
-            "reps": [6, 6, 6, 6],
+            "name": "Frontböj",
+            "percent": [63,	67,	70,	74,	78,	82,	85,	88],
+            "reps": [3, 3, 3, 3, 3, 3, 3, 3],
             "setsDone": [false, false, false, false, false, false],
-            "description": "Press bakom nacke ryckfattning: stående 4x6.",
+            "description": "",
             "done": false,
-            "TypeOfPr": "snatch"
+            "TypeOfPr": "clean"
+        },
+        {
+            "name": "Sittande press",
+            "percent": [29,	30,	32,	33,	35,	37,	40,	43],
+            "reps": [5, 5, 5, 5, 5, 5, 5, 5],
+            "setsDone": [false, false, false, false, false, false],
+            "description": "",
+            "done": false,
+            "TypeOfPr": "clean"
         }
     ];
 
-export const passtre = [
+export const passtre =     
+[
     {
-        "name": "Ryckböj",
-        "percent": [20, 30, 35, 40, 45, 50],
-        "reps": [4, 4, 4, 4, 4, 4],
+        "name": "Ryck nacke",
+        "percent": [23,	28,	30,	35,	37, 40, 43],
+        "reps": [3, 3, 3, 3, 3, 3, 3],
         "setsDone": [false, false, false, false, false],
-        "description": "Smalare fattning till kvartsböj mot stol: valfri vikt 6x4",
+        "description": "utan bendriv 5-7 sets x3 på 40%",
         "done": false,
         "TypeOfPr": "snatch"
     },
     {
-        "name": "Ryckpress",
-        "percent": [20, 25, 30, 35],
-        "reps": [4, 4, 4, 4],
+        "name": "Ryck nacke",
+        "percent": [52,	55,	57,	60,	64,	67,	70,	73],
+        "reps": [3, 3, 3, 3, 3, 3, 3, 3],
         "setsDone": [false, false, false, false, false, false],
-        "description": "Stå med raka ben, stång på axlar och pressa dig ned till botten av sittet i ryck: Lätt vikt",
+        "description": "snatch balance",
         "done": false,
         "TypeOfPr": "snatch"
     },
     {
-        "name": "Rycknacke",
-        "percent": [60, 60, 60, 60, 60],
-        "reps": [3, 3, 3, 3, 3],
+        "name": "Stöt",
+        "percent": [52,	55,	57,	60,	64,	67,	70,	73],
+        "reps": [2, 2, 2, 2, 2, 2, 2, 2],
         "setsDone": [false, false, false, false, false, false],
-        "description": "med bendriv: 5x3x60% av max i ryck",
-        "done": false,
-        "TypeOfPr": "snatch"
-    },
-    {
-        "name": "Frontböj + 2 kickstöt",
-        "percent": [70, 70, 70, 70, 70],
-        "reps": [1, 1, 1, 1, 1],
-        "setsDone": [false, false, false, false, false, false],
-        "description": "En frontböj + TVÅ kickstöt: 5x1+2 70%",
+        "description": "",
         "done": false,
         "TypeOfPr": "clean"
     },
     {
-        "name": "Step-ups",
-        "percent": [40, 45, 50, 60],
-        "reps": [4, 4, 4, 4],
+        "name": "Stötdrag",
+        "percent": [79,	83,	87,	92,	97,	102, 105, 108],
+        "reps": [3, 3, 3, 3, 3, 3, 3, 3],
         "setsDone": [false, false, false, false, false, false],
-        "description": "med skivstång på ryggen: 4 PER BEN 40-60% av stötmax",
+        "description": "",
+        "done": false,
+        "TypeOfPr": "clean"
+    },
+    {
+        "name": "Bakböj",
+        "percent": [67,	71,	75,	79,	83,	87,	90,	93],
+        "reps": [3, 3, 3, 3, 3, 3, 3, 3],
+        "setsDone": [false, false, false, false, false, false],
+        "description": "",
+        "done": false,
+        "TypeOfPr": "clean"
+    },
+    {
+        "name": "Press",
+        "percent": [40,	42,	45,	47,	49,	52,	55,	58],
+        "reps": [5, 5, 5, 5, 5, 5, 5, 5],
+        "setsDone": [false, false, false, false, false, false],
+        "description": "",
         "done": false,
         "TypeOfPr": "clean"
     }
@@ -146,29 +174,59 @@ export const passtre = [
     
 
 export const passfyra = 
-    [
-        {
-            "name": "Ryck",
-            "percent": [65,	70,	75,	80,	85,	87],
-            "reps": [1, 1, 1, 1, 1, 1],
-            "description": "Kontrollerat ner, snabbt upp",
-            "done": false,
-            "TypeOfPr": "snatch"
-        },
-        {
-            "name": "Stöt",
-            "percent": [65,	70,	75,	80,	85,	87],
-            "reps": [1, 1, 1, 1, 1, 1],
-            "description": "Stanna i läget där du fångar cleanen",
-            "done": false,
-            "TypeOfPr": "clean"
-        },
-        {
-            "name": "Backsquat",
-            "percent": [75,	80,	85,	90,	95, 97],
-            "reps": [2, 2, 2, 2, 2, 2],
-            "description": "Kontrollerat ner, snabbt upp",
-            "done": false,
-            "TypeOfPr": "clean"
-        }
-    ];
+[
+    {
+        "name": "Ryckmark",
+        "percent": [36,	38,	40,	42,	45,	47,	50,	53],
+        "reps": [5, 5, 5, 5, 5, 5, 5, 5],
+        "setsDone": [false, false, false, false, false],
+        "description": "från ovan till under knät",
+        "done": false,
+        "TypeOfPr": "snatch"
+    },
+    {
+        "name": "Ryck häng",
+        "percent": [52,	55,	57,	60,	64,	67,	70,	73],
+        "reps": [5, 5, 5, 5, 5, 5, 5, 5],
+        "setsDone": [false, false, false, false, false, false],
+        "description": "Hängande vid knät",
+        "done": false,
+        "TypeOfPr": "snatch"
+    },
+    {
+        "name": "Styrkevändning",
+        "percent": [52,	55,	57,	60,	64,	67,	70,	73],
+        "reps": [5, 5, 5, 5, 5, 5, 5, 5],
+        "setsDone": [false, false, false, false, false, false],
+        "description": "",
+        "done": false,
+        "TypeOfPr": "clean"
+    },
+    {
+        "name": "Stötdrag",
+        "percent": [63,	67,	70,	74,	78,	82,	85,	88],
+        "reps": [5, 5, 5, 5, 5, 5, 5, 5],
+        "setsDone": [false, false, false, false, false, false],
+        "description": "",
+        "done": false,
+        "TypeOfPr": "clean"
+    },
+    {
+        "name": "Empty",
+        "percent": [1,	2,	3,	4,	5,	6,	7,	8],
+        "reps": [3, 3, 3, 3, 3, 3, 3, 3],
+        "setsDone": [false, false, false, false, false, false],
+        "description": "",
+        "done": false,
+        "TypeOfPr": "clean"
+    },
+    {
+        "name": "Empty",
+        "percent": [1,	2,	3,	4,	5,	6,	7,	8],
+        "reps": [5, 5, 5, 5, 5, 5, 5, 5],
+        "setsDone": [false, false, false, false, false, false],
+        "description": "",
+        "done": false,
+        "TypeOfPr": "snatch"
+    }
+];
