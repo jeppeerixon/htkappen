@@ -215,7 +215,7 @@ function checkIfDayIsDone(workouts: any) {
   ) as HTMLUListElement;
 
   // denna ifsats måste lösas på ett bättre sätt...
-  if (workouts[0].done == true && workouts[1].done == true  && workouts[2].done == true && workouts[3].done == true && workouts[4].done == true && workouts[5].done == true ) {
+  if (workouts[0].done == true && workouts[1].done == true  && workouts[2].done == true && workouts[3].done == true && workouts[4].done == true ) {
     if (setContainer) {
       setContainer.innerHTML = "";
     }
@@ -245,7 +245,7 @@ function checkIfDayIsDone(workouts: any) {
         let option = (e.currentTarget as HTMLLIElement).innerHTML;
         if (option == list[0]) {
           //skriv om till en forloop när du orkar
-          workouts[0].done = false; workouts[1].done = false; workouts[2].done = false; workouts[3].done = false; workouts[4].done = false; workouts[5].done = false;
+          workouts[0].done = false; workouts[1].done = false; workouts[2].done = false; workouts[3].done = false; workouts[4].done = false;
           currentLiftCount = 0;
           showCorrectDay(currentDayCount)
           showCorrectOvning(weeklyProgList[currentDayCount])
