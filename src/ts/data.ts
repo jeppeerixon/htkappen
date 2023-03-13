@@ -11,9 +11,9 @@ export const tisdag =
             "ovningNr": 0
         },
         {
-            "name": "Ryck",
-            "percent": [55,	60,	65,	70,	75,	80,	80,	80],
-            "reps": [3, 3, 3, 3, 3, 3, 3, 3],
+            "name": "Styrkeryck",
+            "percent": [55,	60,	65,	70,	75,	75,	75,	75],
+            "reps": [2, 2, 2, 2, 2, 2, 2, 2],
             "setsDone": [false, false, false, false, false, false],
             "description": "",
             "done": false,
@@ -21,30 +21,30 @@ export const tisdag =
             "ovningNr": 1
         },
         {
-            "name": "Vändning+frontböj",
+            "name": "Stöt",
             "percent": [50, 55,	60,	65,	70,	75,	75,	75],
-            "reps": [3, 3, 3, 3, 3, 3, 3, 3],
+            "reps": [2, 2, 2, 2, 2, 2, 2, 2],
             "setsDone": [false, false, false, false, false, false],
-            "description": "2 vändningar + 1 frontböj = 1 rep",
+            "description": "",
             "done": false,
             "TypeOfPr": "clean",
             "ovningNr": 2
         },
         {
-            "name": "Stöt från rack",
-            "percent": [60, 65, 70, 70, 70, 70],
+            "name": "Ryckdrag",
+            "percent": [95, 105, 105, 105, 105, 105],
             "reps": [3, 3, 3, 3, 3, 3],
             "setsDone": [false, false, false, false, false, false],
             "description": "",
             "done": false,
-            "TypeOfPr": "clean",
+            "TypeOfPr": "snatch",
             "ovningNr": 3
             
         },
         {
-            "name": "Upright rows",
-            "percent": [30,	35,	35,	35,	35],
-            "reps": [6, 6, 6, 6, 6],
+            "name": "Bakböj",
+            "percent": [85,	90,	90,	90,	90],
+            "reps": [2, 2, 2, 2, 2],
             "setsDone": [false, false, false, false, false, false],
             "description": "Upright rows med stötfattning",
             "done": false,
@@ -66,9 +66,9 @@ export const torsdag =
         "ovningNr": 0
     },
     {
-        "name": "Styrkeryck",
-        "percent": [55,	60,	65,	70,	75,	75,	75,	75],
-        "reps": [3, 3, 3, 3, 3, 3, 3, 3],
+        "name": "Ryck",
+        "percent": [70,	75,	80,	85,	90, 90, 90, 91],
+        "reps": [1, 1, 1, 1, 1, 1, 1, 1],
         "setsDone": [false, false, false, false, false, false],
         "description": "",
         "done": false,
@@ -76,31 +76,31 @@ export const torsdag =
         "ovningNr": 1
     },
     {
-        "name": "Ryckdrag",
-        "percent": [70,	75,	75,	75, 75],
-        "reps": [3, 3, 3, 3, 3],
+        "name": "Stöt",
+        "percent": [70,	75,	80,	85,	90, 90, 90, 91],
+        "reps": [1, 1, 1, 1, 1, 1, 1, 1],
         "setsDone": [false, false, false, false, false, false],
         "description": "",
-        "done": false,
-        "TypeOfPr": "snatch"
-    },
-    {
-        "name": "Stöt utan bendriv",
-        "percent": [35,	40,	40,	40, 40],
-        "reps": [3, 3, 3, 3, 3],
-        "setsDone": [false, false, false, false, false, false],
-        "description": "Stöt utan bendriv",
         "done": false,
         "TypeOfPr": "clean"
     },
     {
-        "name": "Push press",
-        "percent": [78,	82,	83,	84,	85],
+        "name": "Stötdrag",
+        "percent": [100, 110, 110, 110, 110],
         "reps": [3, 3, 3, 3, 3],
+        "setsDone": [false, false, false, false, false, false],
+        "description": "",
+        "done": false,
+        "TypeOfPr": "clean"
+    },
+    {
+        "name": "Frontböj",
+        "percent": [92,	97,	98,	99,	100],
+        "reps": [2, 2, 2, 2, 2],
         "setsDone": [false, false, false, false, false, false],
         "description": "Push press ryckfattning",
         "done": false,
-        "TypeOfPr": "snatch"
+        "TypeOfPr": "clean"
     }
 ];
 
@@ -116,18 +116,18 @@ export const passtre =
         "TypeOfPr": "snatch"
     },
     {
-        "name": "Ryck",
-        "percent": [60,	65,	70,	75,	80,	81,	82,	83],
+        "name": "Ryck nacke",
+        "percent": [65,	70,	75,	80,	85,	86,	87, 88],
         "reps": [2, 2, 2, 2, 2, 2, 2, 2],
         "setsDone": [false, false, false, false, false, false],
-        "description": "",
+        "description": "Ryck nacke med bendriv",
         "done": false,
         "TypeOfPr": "snatch"
     },
     {
-        "name": "Stöt",
-        "percent": [60,	65,	70,	75,	80,	81,	82,	83],
-        "reps": [2, 2, 2, 2, 2, 2, 2, 2],
+        "name": "Styrkevändning",
+        "percent": [65,	70,	75,	76,	77,	78],
+        "reps": [3, 3, 3, 3, 3, 3],
         "setsDone": [false, false, false, false, false, false],
         "description": "",
         "done": false,
@@ -135,17 +135,17 @@ export const passtre =
     },
     {
         "name": "Stötdrag",
-        "percent": [105, 110, 110, 110, 110],
+        "percent": [95, 100, 100, 100, 100],
         "reps": [3, 3, 3, 3, 3],
         "setsDone": [false, false, false, false, false, false],
-        "description": "",
+        "description": "Stötdrag med långsam sänkning till golvet, håll emot!",
         "done": false,
         "TypeOfPr": "clean"
     },
     {
-        "name": "Bakböj",
-        "percent": [95, 100, 101, 102, 103],
-        "reps": [3, 3, 3, 3, 3],
+        "name": "Frontböj",
+        "percent": [85, 90, 91, 92, 93],
+        "reps": [2, 2, 2, 2, 2],
         "setsDone": [false, false, false, false, false, false],
         "description": "",
         "done": false,
@@ -156,17 +156,26 @@ export const passtre =
 export const passfyra = 
 [
     {
-        "name": "Stöt utan bendriv",
-        "percent": [40,	40,	40,	40],
+        "name": "Ryck nacke",
+        "percent": [30,	30,	30,	30],
         "reps": [3, 3, 3, 3],
         "setsDone": [false, false, false, false, false],
-        "description": "Primer: Stöt utan bendriv 4x3reps @ 40%",
+        "description": "Primer: Ryck nacke utan bendriv, med fötterna i golvet 4x3reps @ 33%",
         "done": false,
-        "TypeOfPr": "clean"
+        "TypeOfPr": "snatch"
     },
     {
-        "name": "Stöt",
-        "percent": [61, 64, 68, 71, 75, 76, 77, 78],
+        "name": "Ryckböj",
+        "percent": [57, 60, 63, 67, 70, 71, 72, 73],
+        "reps": [3, 3, 3, 3, 3, 3, 3, 3],
+        "setsDone": [false, false, false, false, false, false],
+        "description": "",
+        "done": false,
+        "TypeOfPr": "snatch"
+    },
+    {
+        "name": "Stöt från rack",
+        "percent": [65, 68, 70, 73, 75, 75, 75, 75],
         "reps": [2, 2, 2, 2, 2, 2, 2, 2],
         "setsDone": [false, false, false, false, false, false],
         "description": "",
@@ -174,29 +183,20 @@ export const passfyra =
         "TypeOfPr": "clean"
     },
     {
-        "name": "Stötdrag till hopp",
-        "percent": [40, 43, 45, 48, 50, 50, 50, 50],
-        "reps": [3, 3, 3, 3, 3, 3, 3, 3],
-        "setsDone": [false, false, false, false, false, false],
-        "description": "Stötdrag till hopp från mitten av låret",
-        "done": false,
-        "TypeOfPr": "clean"
-    },
-    {
-        "name": "Frontböj",
+        "name": "Ät mat",
         "percent": [90, 95, 96, 97, 98],
         "reps": [2, 2, 2, 2, 2],
         "setsDone": [false, false, false, false, false, false],
-        "description": "Ryckböj med smalfattning till parallell, mot en box. 3 sek paus i botten",
+        "description": "",
         "done": false,
         "TypeOfPr": "clean"
     },
     {
-        "name": "Press utfall",
+        "name": "Vila",
         "percent": [42, 45, 45, 45, 45],
         "reps": [3, 3, 3, 3, 3],
         "setsDone": [false, false, false, false, false, false],
-        "description": "Press i utfall, enbart en sida",
+        "description": "",
         "done": false,
         "TypeOfPr": "clean"
     }
