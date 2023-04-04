@@ -1,6 +1,6 @@
 import { getUserInput, addUserID, createNewUser, displayError} from "./userfunctions";
 import { userID } from "./models/Userid";
-import { tisdag, passtre, torsdag } from "./data";
+import { tisdag, torsdag, passtre, passfyra } from "./data";
 
 //let bajskorv = JSON.parse(localStorage.getItem("tisdag") || "[]");
 
@@ -8,7 +8,7 @@ import { tisdag, passtre, torsdag } from "./data";
 
 export let userIDlist: userID[] = JSON.parse(localStorage.getItem("userData") || "[]"); ;
 
-let weeklyProgList = [tisdag, torsdag, passtre];
+let weeklyProgList = [tisdag, torsdag, passtre, passfyra];
 
 let daysDoneCount: number = 0;
 let currentDayCount: number = 0;
